@@ -1,0 +1,19 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1%;
+    background-color: #b197fc;
+}
+.image-container{
+    /* width: 80%; */
+    overflow: hidden;
+
+}
+img{
+    width: 100%;
+   height: auto;
+   border-radius:20%;
+   padding: 1%;
+   white-space: 1%;
+    object-fit: cover;
+}
